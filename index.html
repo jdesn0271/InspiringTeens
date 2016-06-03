@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+    .container-fluid{
+        background-color:black;
+        color:black;
+        
+    }
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+           height:600px;
+           margin: auto;
+   
+  }
+     .jumbotron{
+         background-image: url("http://www.shapr.net/bundles/frontbundle/images/shapr-meet-inspiring-people-networking.png");
+         font-family:"Harlow Solid Italic";
+         text-align:center;
+     }
+     .active{
+         background-color:#cad8e7;
+     }
+     h4 {
+    color: black;
+    background-color:light cornflowerblue;
+    width:25%;
+    height:20%;
+    border-radius:10px;
+    box-shadow:5px 5px 5px white;
+    float:right;
+    margin:-29px;
+    font-family:arial;
+     }
+      h2 {
+    color: black;
+    background-color:light cornflowerblue;
+    width:25%;
+    height:20%;
+    border-radius:10px;
+    box-shadow:5px 5px 5px white;
+    float:right;
+    font-family:arial;
+   
+    </style>
+    </head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">INSPIRING TEEN CELEBERTIES</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">INSPIRATIONAL TEENS
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="zendaya.html">Zendaya</a></li>
+          <li><a href="jazz.html">Jazz Jennings</a></li>
+          <li><a href="demi.html">Demi Lovato</a></li> 
+        </ul>
+      </li>
+      <li><a href="#"></a></li> 
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">TEEN PRESSURES OF TODAY <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Grades</a></li>
+          <li><a href="#">Relationship Pressures</a></li>
+          <li><a href="#">Drugs</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+     <div class="jumbotron">
+  <div class="container">
+    <h1>INSPIRATIONAL TEENS OF TODAY</h1> 
+ 
+  </div>
+</div>
+     
+     <!-- end of nav -->
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://www.waldeneatingdisorders.com/wp-content/uploads/2015/06/teenstresssmall.jpg" alt="Chania" width="460" height="345">
+    <div class= "carousel-caption">
+       <h4>Teens in our generation suffer more from stress than <br>any other genertion in the past did <br>
+            Teens are now worried about relationships,money,college tuition,grades,and also peer pressures.</h4>
+    </div>
+    </div>
+
+    <div class="item">
+      <img src="http://i.dailymail.co.uk/i/pix/2016/02/21/19/313FC04800000578-3457381-image-a-49_1456084464556.jpg" alt="Chania">
+      <div class= "carousel-caption">
+       <h2>Demi Lovato.</h2>
+    </div>
+    </div>
+
+    <div class="item">
+      <img src="http://www1.pictures.zimbio.com/gi/TrevorLIVE+LA+2015+Red+Carpet+fCU6qEhxvKrl.jpg" alt="Flower">
+        <div class= "carousel-caption">
+       <h2>Jazz Jennings.</h2>
+       </div>
+    </div>
+
+    <div class="item">
+      <img src="https://teeninfonet.files.wordpress.com/2013/11/zendaya-ama-3.jpg"  alt="Flower">
+        <div class= "carousel-caption">
+       <h2>Zendaya.</h2>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <!-- end of carousel -->
+</nav>
+</body>
+</html> 
